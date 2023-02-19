@@ -1,0 +1,1 @@
+SELECT products.name, providers.name FROM providers JOIN products ON providers.id = products.id_providers JOIN categories ON categories.id = products.id_categories WHERE categories.id = '6'

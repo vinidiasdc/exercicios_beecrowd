@@ -1,0 +1,1 @@
+SELECT p.name, f.name, c.name FROM products p JOIN providers f ON p.id_providers = f.id JOIN categories c ON c.id = p.id_categories WHERE f.name = 'Sansul SA' AND c.name = 'Imported'
